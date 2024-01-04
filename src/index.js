@@ -55,7 +55,7 @@ function extractHWIDFromURL(url) {
 }
 
 client.on("interactionCreate", async (interaction) => {
-	const allowedChannelId = '1174298298778132490';
+	const allowedChannelId = '1192428881798504520';
 		if (!interaction.guild) {
 			await interaction.reply("Chỉ được sử dụng lệnh trong server. [Click vào đây để được vào server!](https://discord.gg/hngaming)");
 			return;
